@@ -1,14 +1,14 @@
-import { combineReducers } from 'redux';
-import errors from './errorsReducer';
-import loginMode from './loginModeReducer';
-import user from './userReducer';
-import story from './storyReducer.js';
-import template from './templateReducer.js';
-import notification from './notificationReducer.js';
-import chapter from './chapterReducer.js';
-import contributor from './contributorReducer.js';
-import storyDetail from './storyDetailReducer';
-import searchResults from './searchResultsReducer';
+import { combineReducers } from "redux";
+import errors from "./errorsReducer";
+import loginMode from "./loginModeReducer";
+import user from "./userReducer";
+import story from "./storyReducer.js";
+import template from "./templateReducer.js";
+import notification from "./notificationReducer.js";
+import chapter from "./chapterReducer.js";
+import contributor from "./contributorReducer.js";
+import storyDetail from "./storyDetailReducer";
+import searchResults from "./searchResultsReducer";
 
 // rootReducer is the primary reducer for our entire project
 // It bundles up all of the other reducers so our project can use them.
@@ -26,7 +26,7 @@ const rootReducer = combineReducers({
   chapter, // loads chapters for a story
   contributor, // list of app users to be contributors
   storyDetail,
-  searchResults, //results back from server after search all stories
+  searchResults //results back from server after search all stories
 });
 
 export default rootReducer;
