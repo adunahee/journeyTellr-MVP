@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import SearchBar from './SearchBar';
-import SearchResults from './SearchResult';
-import SubHeader from '../Common/SubHeader';
-import { Col, Row } from 'antd';
+import SearchBar from "./SearchBar";
+import SearchResults from "./SearchResult";
+import SubHeader from "../Common/SubHeader";
+import { Col, Row } from "antd";
 
 export default class SearchMain extends Component {
   render() {
@@ -11,7 +11,7 @@ export default class SearchMain extends Component {
       <div>
         <Row type="flex" justify="center">
           <Col span={24}>
-            <SubHeader headerText='Browse Stories' />
+            <SubHeader headerText="Browse Stories" />
           </Col>
           <Col span={18}>
             <SearchBar />
@@ -21,6 +21,6 @@ export default class SearchMain extends Component {
           </Col>
         </Row>
       </div>
-    )
+    );
   }
 }
